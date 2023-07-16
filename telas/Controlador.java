@@ -81,12 +81,12 @@ public class Controlador {
         System.out.println("**************************************");
         System.out.println("******** INCLUIR PRODUTO ********");
         System.out.println("**************************************");
-        System.out.print("Digite o código do produto: ");
+        System.out.print("Digite o código do produto (somente números): ");
         int codigo = scan.nextInt();
         scan.nextLine();
         System.out.print("Digite o nome do produto: ");
         String nome = scan.nextLine();
-        System.out.print("Digite o valor do produto: ");
+        System.out.print("Digite o valor do produto (separado por vírgula): ");
         double valor = scan.nextDouble();
         System.out.print("Digite a quantidade em estoque: ");
         int quantidadeEmEstoque = scan.nextInt();
